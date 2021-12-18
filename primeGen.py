@@ -45,13 +45,9 @@ def  primeSum(stop):
     return aux
 
 # MAIN PROGRAM #
-
-play = True
-while (play):
-    print("Welcome to the program, please enter a number \
-          and we will calculate the sum of all the numbers in between \
-          for which n/div + div is prime")
-    stop = int(input("Enter the number : "))
-    print("The sum is: ")
-    print(primeSum(stop))
-    play = bool(input("Do you want to play again? "))
+print("Welcome to the program, please enter a number \
+      and we will calculate the sum of all the numbers in between \
+      for which n/div + div is prime")
+stop = int(input("Enter the number : "))
+print("The sum is: ")
+print(primeSum(stop))
